@@ -27,4 +27,10 @@
 .btn-sec-sm {
   font-size: 0.75rem;
   padding: 0.1rem 1rem;
+}
+
+.main-menu li {
+  list-style: none;
+  display: inline;
+  font-size: 0.75rem;
 }/*# sourceMappingURL=index.css.map */

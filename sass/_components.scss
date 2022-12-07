@@ -34,3 +34,11 @@ $color-main: #0075ff;
         @include btn-sm-modify();
     }
 }
+
+.main-menu {
+    li {
+        list-style: none;
+        display: inline;
+        font-size: 0.75rem;
+    }
+}
