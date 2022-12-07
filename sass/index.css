@@ -115,4 +115,25 @@ body {
 
 .logo img {
   max-width: 6rem;
+}
+
+.sec-home {
+  display: flex;
+  align-items: center;
+  margin: auto;
+  max-width: 768px;
+  padding: 5rem;
+}
+.sec-home .home-cta {
+  flex: 1;
+}
+.sec-home .home-cta .cta-text {
+  color: #0075ff;
+}
+.sec-home .home-cta .cta-text i {
+  font-weight: 600;
+}
+.sec-home .home-cta .home-title {
+  width: 25rem;
+  font-size: 2rem;
 }/*# sourceMappingURL=index.css.map */

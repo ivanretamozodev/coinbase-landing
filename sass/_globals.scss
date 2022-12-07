@@ -1,3 +1,4 @@
+@use 'components';
 body {
     padding: 0;
     margin: 0;
@@ -14,4 +15,25 @@ body {
 
 .logo img {
     max-width: 6rem;
+}
+
+.sec-home {
+    display: flex;
+    align-items: center;
+    margin: auto;
+    max-width: 768px;
+    padding: 5rem;
+    .home-cta {
+        flex: 1;
+        .cta-text {
+            color: components.$color-main;
+            i {
+                font-weight: 600;
+            }
+        }
+        .home-title {
+            width: 25rem;
+            font-size: 2rem;
+        }
+    }
 }
