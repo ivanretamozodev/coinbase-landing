@@ -1,3 +1,4 @@
+@charset "UTF-8";
 .btn-main, .btn-main-sm {
   padding: 0.25rem 1.5rem;
   border-radius: 0.25rem;
@@ -33,4 +34,12 @@
   list-style: none;
   display: inline;
   font-size: 0.75rem;
+}
+
+.icon-sm i {
+  font-size: 0.75rem;
+  padding: 0.1rem¿ 0.25rem;
+  color: #0075ff;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.138);
+  border-radius: 50%;
 }/*# sourceMappingURL=index.css.map */
