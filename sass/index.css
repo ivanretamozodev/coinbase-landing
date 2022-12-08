@@ -227,4 +227,22 @@
   border-top: 5px solid #ddd;
   margin: 0 1rem;
   flex: 1;
+}
+
+.sec-footer-cta {
+  background-color: #f5f8ff;
+  padding: 4rem;
+  background-image: url("./../assets/img/world.webp");
+  background-repeat: no-repeat;
+  background-position: 100%;
+}
+.sec-footer-cta .footer-cta {
+  max-width: 50%;
+}
+.sec-footer-cta .footer-cta .cta-title {
+  font-size: 40px;
+  font-weight: 600;
+}
+.sec-footer-cta .footer-cta .cta-description {
+  font-size: 18px;
 }/*# sourceMappingURL=index.css.map */

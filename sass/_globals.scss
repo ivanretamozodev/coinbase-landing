@@ -136,3 +136,21 @@
         }
     }
 }
+
+.sec-footer-cta {
+    background-color: components.$color-footer;
+    padding: 4rem;
+    background-image: url('./../assets/img/world.webp');
+    background-repeat: no-repeat;
+    background-position: 100%;
+    .footer-cta {
+        max-width: 50%;
+        .cta-title {
+            font-size: 40px;
+            font-weight: 600;
+        }
+        .cta-description {
+            font-size: 18px;
+        }
+    }
+}

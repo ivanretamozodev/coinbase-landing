@@ -7,6 +7,7 @@
     padding: 0.1rem 1rem;
 }
 $color-main: #0052ff;
+$color-footer: #f5f8ff;
 .btn-main {
     @include btn-base();
     background-color: $color-main;
