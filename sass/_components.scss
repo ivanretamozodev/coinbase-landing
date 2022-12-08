@@ -6,7 +6,7 @@
     font-size: 0.75rem;
     padding: 0.1rem 1rem;
 }
-$color-main: #0075ff;
+$color-main: #0052ff;
 .btn-main {
     @include btn-base();
     background-color: $color-main;
@@ -60,12 +60,12 @@ $color-main: #0075ff;
     }
 }
 
-.feature {
+.benefit {
     display: flex;
     flex-direction: column;
-    .icon {
+    i {
         color: $color-main;
-        font-size: 10rem;
+        font-size: 7.5rem;
         text-align: center;
     }
     .description {

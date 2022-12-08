@@ -55,10 +55,11 @@ body {
     .intro {
         text-align: center;
         h3 {
-            font-size: 1.8rem;
+            font-size: 40px;
+            font-weight: 600;
         }
         p {
-            font-size: 0.8rem;
+            font-size: 18px;
             color: #444;
         }
     }
@@ -93,4 +94,9 @@ body {
             }
         }
     }
+}
+
+.sec-benefits {
+    border-top: 1px solid #ccc;
+    @extend .sec-features, .intro;
 }
