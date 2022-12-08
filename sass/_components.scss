@@ -27,7 +27,7 @@ $color-main: #0052ff;
     background-color: transparent;
     border: none;
     &:hover {
-        color: #444;
+        color: $color-main;
     }
     &-sm {
         @extend .btn-sec;
@@ -88,12 +88,11 @@ $color-main: #0052ff;
 }
 
 .icon-description {
-    background-color: rebeccapurple;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    .icon {
+    i {
         padding: 0;
         color: $color-main;
         font-size: 10rem;
@@ -101,6 +100,6 @@ $color-main: #0052ff;
     .title {
         font-size: 1.5rem;
         font-weight: 600;
-        margin-top: -2rem;
+        margin-top: -1rem;
     }
 }
